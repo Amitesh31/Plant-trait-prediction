@@ -22,5 +22,21 @@ Train images- 55.5k files
 Test images- 7133 files 
 
 Size of the tabular data -
+
 train.csv :- 55489, 176 (78.52mb)
+
 test.csv:- 6545, 164 (8.21mb)
+
+## Final Model
+Based on Vision Transformer Arch
+Image divides into 16x16 patches 
+Patches are converted to Path Vectors through Linear Transformation
+Each Path Vectors combine with Positional embeddings
+
+SWIN Architecture
+Image -> 4x4x3 channels -> 48 features -> Linearly transformed
+Divide and Conquer: Attention is introduced but it doesn’t consider all at once,
+It slides and maintains attention for a fixed number of neighbouring sequences
+This output is merged by encoder
+Passed through Linear Projection to decrease dimensionality (e.g. 4c to 2c)
+Steps 1 to 4 happen for multiple runs, where the window is “shifted”
