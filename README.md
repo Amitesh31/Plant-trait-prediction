@@ -29,8 +29,8 @@ test.csv:- 6545, 164 (8.21mb)
 
 ## Final Model
 Based on Vision Transformer Arch
--Image divides into 16x16 patches 
--Patches are converted to Path Vectors through Linear Transformation
+- **Name**:Image divides into 16x16 patches 
+- **Name**: Patches are converted to Path Vectors through Linear Transformation
 -Each Path Vectors combine with Positional embeddings
 
 SWIN Architecture
