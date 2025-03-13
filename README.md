@@ -28,7 +28,7 @@ train.csv :- 55489, 176 (78.52mb)
 test.csv:- 6545, 164 (8.21mb)
 
 ## Baseline Model Efficient Net B0 with MLP
-
+<img src="images/effecient_net.png">
 
 ## Final Model SWIN 
 Based on Vision Transformer Architecture
@@ -43,3 +43,8 @@ SWIN Architecture
 - This output is merged by encoder
 - Passed through Linear Projection to decrease dimensionality (e.g. 4c to 2c)
 - Steps 1 to 4 happen for multiple runs, where the window is “shifted”
+
+<img src="images/swin.png">
+
+## Results 
+<img src="images/results.png">
