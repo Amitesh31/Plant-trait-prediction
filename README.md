@@ -31,8 +31,10 @@ test.csv:- 6545, 164 (8.21mb)
 Monthly mean optical reflectance of sunlight for each band
 <img src="images/eda1.png">
 
-<img src="images/eda2.png">
+
 Soil texture components across 0-5 cm depth
+<img src="images/eda2.png">
+
 
 
 ## Preprocessing
