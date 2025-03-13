@@ -31,8 +31,9 @@ test.csv:- 6545, 164 (8.21mb)
 Monthly mean optical reflectance of sunlight for each band
 <img src="images/eda1.png">
 
-Soil texture components across 0-5 cm depth
 <img src="images/eda2.png">
+Soil texture components across 0-5 cm depth
+
 
 ## Preprocessing
 - Dropped columns having too many null values
@@ -41,7 +42,10 @@ Soil texture components across 0-5 cm depth
 - Image Preprocessing- flip, brightness, hue, saturation, crop
 - Normalized all the attributes. 
 
+Histogram and Boxplot before Preprocessing 
 <img src="images/preprocessing1.png">
+
+Histogram and Boxplot after Preprocessing 
 <img src="images/preprocessing2.png">
 
 ## Baseline Model Efficient Net B0 with MLP
