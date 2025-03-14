@@ -33,6 +33,7 @@ Monthly mean optical reflectance of sunlight for each band
 
 
 Soil texture components across 0-5 cm depth
+<br> <br>
 <img src="images/eda2.png">
 
 
@@ -49,6 +50,7 @@ Histogram and Boxplot before Preprocessing
 <img src="images/preprocessing1.png">
 
 Histogram and Boxplot after Preprocessing 
+<br> <br>
 <img src="images/preprocessing2.png">
 
 ## Baseline Model Efficient Net B0 with MLP
