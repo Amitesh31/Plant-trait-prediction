@@ -45,6 +45,7 @@ Soil texture components across 0-5 cm depth
 - Normalized all the attributes. 
 
 Histogram and Boxplot before Preprocessing 
+<br> <br>
 <img src="images/preprocessing1.png">
 
 Histogram and Boxplot after Preprocessing 
